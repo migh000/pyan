@@ -1,0 +1,1 @@
+docker run --rm --net=host --runtime=nvidia -it ghcr.io/migh000/serverless-test:2 python3 -u rp_handler.py --rp_serve_api
