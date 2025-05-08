@@ -21,9 +21,6 @@ def handler(event):
     print(f"Worker Start")
     input = event['input']
     
-    prompt = input.get('prompt')
-    seconds = input.get('seconds', 0)
-    
     # Extract key from input and decode from base64
     input_file = input.get('file')
     if input_file:
